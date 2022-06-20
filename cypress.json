@@ -2,7 +2,5 @@
 "baseUrl": "https://www.goldap.pl/",
 "retries": 1,
 "watchForFileChanges": false,
-"viewportHeight": 1220,
-"viewportWidht": 1080,
 "projectId": "ug2429"
 }
