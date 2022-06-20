@@ -32,6 +32,7 @@ Cypress.Commands.add("wejscie_goldap", () => {
     cy.wejscie_goldap();
     cy.get(':nth-child(5) > .show-all-div > .show-all-incat-btn > span').as('z_urzedu');
     cy.get('@z_urzedu').click();
+    cy.url().should("contain", "www.goldap.pl/pl/229/0/z-urzedu.html?cid=13");
   });
 
   Cypress.Commands.add("wejscie_sport", () => {
